@@ -51,7 +51,7 @@ with st.sidebar:
 
 
  
-if use_case_select_box != "<Please Choose>":
+if use_case_select_box != "Choose Menu":
     tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs(model_stages_[1:])
     with tab1:
         model_phases_dict["Model Registration"](use_case_select_box)
