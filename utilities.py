@@ -19,12 +19,12 @@ model_phases_dict = {
     "Model Monitoring": model_monitoring
 }
 
-use_cases_ = ["<Please Choose>", "Mortgage Loan", "Insurance Cross-sell","Prioritization of medical reps"]
+use_cases_ = ["Choose Menu", "Details", "Photo Gallery","Travel List"]
 
 model_stages_ = ["",
-                 "✍️ Model Registration", "📁 Model Details",
-                 "🛠️ Model Development Phase", "✔️ Model Approval For Deployment",
-                 "♻️ Model Deployment", "👓 Model Monitoring"]
+                 "✍️ First Year", "📁 Second Year",
+                 "🛠️ Third Year", "✔️ Fourth Year",
+                 "♻️ Fifth Year", "👓 Sixth"]
 
 
 
