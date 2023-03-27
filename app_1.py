@@ -25,7 +25,7 @@ set_background("cookie.png")
 ################### USAA LOGO ###########################
 
 # st.markdown(f"""<div class='logo-begining'></div>""", unsafe_allow_html=True)
-
+add_logo("usaa_logo.png")
 # # add_logo_gif("Thashu_V1.gif")
 # with open("style_test.css") as f:
 #     st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
