@@ -2,7 +2,7 @@ import streamlit as st
 st.set_page_config(layout='wide')
 # Using object notation
 from utilities import *
-
+from PIL import Image
 ################# HIDING STREAMLIT FOOTER LOGO ############################
 
 hide_streamlit_style = """
@@ -20,12 +20,14 @@ st.write('<style>div.row-widget.stRadio > div{flex-direction:row;}</style>', uns
 st.markdown("""<style>div[class*="stRadio"] > label > div[data-testid="stMarkdownContainer"] > p {
 font-size: 24px;font-weight: 600;}</style>""", unsafe_allow_html=True)
 #############################################
-set_background("usaa_logo.png")
+# set_background("usaa_logo.png")
 
 ################### USAA LOGO ###########################
 
 st.markdown(f"""<div class='logo-begining'></div>""", unsafe_allow_html=True)
-add_logo("cookie.png")
+# add_logo("cookie.png")
+img = Image.open("logo1.png")
+st.image(img)
 # # add_logo_gif("Thashu_V1.gif")
 with open("style_test.css") as f:
     st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
