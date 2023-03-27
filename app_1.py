@@ -20,7 +20,7 @@ st.write('<style>div.row-widget.stRadio > div{flex-direction:row;}</style>', uns
 st.markdown("""<style>div[class*="stRadio"] > label > div[data-testid="stMarkdownContainer"] > p {
 font-size: 24px;font-weight: 600;}</style>""", unsafe_allow_html=True)
 #############################################
-set_background("bgm.png")
+set_background("usaa_logo.png")
 
 ################### USAA LOGO ###########################
 
