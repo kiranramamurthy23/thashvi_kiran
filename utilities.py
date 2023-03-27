@@ -52,3 +52,32 @@ def add_logo_gif(image_path):
         f'<img src="data:image/gif;base64,{data_url}" alt="cat gif">',
         unsafe_allow_html=True,
     )
+
+    
+def add_logo(image_path):
+    logo_image = add_background_image \
+            (
+            class_id="logo-begining",
+            image_path=image_path
+        )
+    st.markdown(logo_image, unsafe_allow_html=True)
+
+def add_background_image(
+        class_id,
+        image_path
+):
+    b64_image = get_base64(image_path)
+    return """
+            <style>
+            div.%s 
+            {
+
+            background-image: url("data:image/png;base64,%s");
+            background-repeat: no-repeat;
+
+            }
+            </style>
+            """ % (
+        class_id,
+        b64_image
+    )
