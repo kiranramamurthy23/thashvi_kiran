@@ -25,7 +25,7 @@ font-size: 24px;font-weight: 600;}</style>""", unsafe_allow_html=True)
 ################### USAA LOGO ###########################
 
 st.markdown(f"""<div class='logo-begining'></div>""", unsafe_allow_html=True)
-set_background("logo1.png")
+set_background("bgm.png.png")
 # add_logo_gif("Thashu_V1.gif")
 with open("style_test.css") as f:
     st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
