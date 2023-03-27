@@ -29,7 +29,6 @@ def get_image_base64(image_path):
         data = f.read()
     return base64.b64encode(data).decode()
 
-@st.cache_data
 def add_background_image(
         class_id,
         image_path
@@ -50,7 +49,6 @@ def add_background_image(
         b64_image
     )
 
-@st.cache_data
 def add_logo_gif(image_path):
     """### gif from local file"""
     file_ = open(image_path, "rb")
