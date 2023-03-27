@@ -29,10 +29,7 @@ def get_image_base64(image_path):
         data = f.read()
     return base64.b64encode(data).decode()
 
-def add_background_image(
-        class_id,
-        image_path
-):
+def add_background_image(class_id,image_path):
     b64_image = get_image_base64(image_path)
     return """
             <style>
@@ -62,9 +59,7 @@ def add_logo_gif(image_path):
     )
 
 def add_logo_img(image_path):
-    logo_image = add_background_image \
-            (
+    logo_image = add_background_image(
             class_id="logo-begining",
-            image_path=image_path
-        )
+            image_path=image_path)
     st.markdown(logo_image, unsafe_allow_html=True)
