@@ -36,7 +36,7 @@ set_background("cookie.png")
 tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs(model_stages_)
 with tab1:
     model_phases_dict["Welcome tab"]()
-    add_logo_gif("Thashu_V1.gif")
+#     add_logo_gif("Thashu_V1.gif")
 with tab2:
     model_phases_dict["Details"]()
 
