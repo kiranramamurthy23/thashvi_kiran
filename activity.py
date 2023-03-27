@@ -1,6 +1,6 @@
 import streamlit as st
 def activity():
-    display_text = "Model is ready for deployment"
+    display_text = "Only playing and crying"
 
     st.markdown("<body style='font-size:40px;text-align:center;font-weight:bold;'>" + display_text + "</body>",
                 unsafe_allow_html=True)
