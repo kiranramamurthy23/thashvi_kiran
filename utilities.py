@@ -6,6 +6,7 @@ from travel_plans import *
 from social_activity import *
 from activity import *
 from welcome_tab import *
+from PIL import Image
 
 model_phases_dict = {
     "Welcome tab": welcome_tab,
@@ -25,8 +26,9 @@ model_stages_ = ["Welcome",
 
 
 def get_base64(bin_file):
-    with open(bin_file, 'rb') as f:
-        data = f.read()
+#     with open(bin_file, 'rb') as f:
+#         data = f.read()
+    data = Image.open(bin_file)
     return base64.b64encode(data).decode()
 
 def set_background(png_file):
