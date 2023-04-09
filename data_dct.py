@@ -9,3 +9,5 @@ main_dct = {
                      "Historical data should be of 5 years",
                      "Should follow guidelines as per USAA policy document",
                      "Data should be deleted once model development is over"]}
+
+url = "https://kiranramamurthy23-thashvi-kiran-app-1-kv9ox4.streamlit.app/"
