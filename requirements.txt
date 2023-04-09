@@ -1,3 +1,1 @@
 pillow==9.4.0
-https://6e4b-4-240-104-241.in.ngrok.io
-st.markdown(key_subset.style.hide(axis="index").to_html(), unsafe_allow_html=True)
