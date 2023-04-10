@@ -66,16 +66,13 @@ with tab2:
     with c4:
         add_logo_gif("kannada.gif")
 with tab3:
-    model_phases_dict["Photo"]()
-
+    model_phases_dict["Activity"]()
 with tab4:
     model_phases_dict["Travel"]()
-
 with tab5:
-    model_phases_dict["Social"]()
-
+    model_phases_dict["Photo"]()
 with tab6:
-    model_phases_dict["Activity"]()
+    model_phases_dict["Social"]()
 
 
 
