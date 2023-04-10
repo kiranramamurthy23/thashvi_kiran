@@ -58,7 +58,9 @@ with tab2:
     model_phases_dict["Details"]()
     c1,c2,c3 = st.columns(3,gap="small")
     with c1:
-        add_logo_gif("birthday.gif")  
+        add_logo_gif("cookie.gif")
+    with c2:
+        add_logo_gif("BDAY.gif")  
     with c3:
         add_logo_gif("place.gif")
 with tab3:
