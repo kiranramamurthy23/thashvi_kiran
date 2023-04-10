@@ -1,4 +1,5 @@
 import streamlit as st
+from PIL import Image
 def photo_library():   
     with st.expander("**First Month**"):
         st.image(Image.open('one.png'))
