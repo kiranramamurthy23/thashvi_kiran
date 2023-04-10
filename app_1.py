@@ -8,7 +8,7 @@ from PIL import Image
 
 hide_streamlit_style = """
 <style>
-#MainMenu {visibility: show;}
+#MainMenu {visibility: hidden;}
 footer {visibility: hidden;}
 </style>
 
