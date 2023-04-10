@@ -55,7 +55,7 @@ with tab1:
     st.image(Image.open('apr10.png'))
     # add_logo_gif("Thashu_V1.gif")
 with tab2:
-    model_phases_dict["Details"]()
+#     model_phases_dict["Details"]()
     c1,c2,c3 = st.columns(3,gap="small")
     with c1:
         add_logo_gif("cookie.gif")
