@@ -42,7 +42,7 @@ st.image(Image.open('logo.PNG'))
 tabs_font_css = """
 <style>
 button[data-baseweb="tab"] > div[data-testid="stMarkdownContainer"] > p {
-font-size: 20px;
+font-size: 22px;
 }
 </style>
 """
