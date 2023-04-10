@@ -17,7 +17,7 @@ model_phases_dict = {
     "Activity": activity
 }
 
-model_stages_ = ["Welcome",
+model_stages_ = ["🙏 Welcome",
                  "✍️ About Me","♻️ Activities", 
                  "🌴 Travel Plans","📁 Photo Library", "👩‍👩‍👧‍👧 Social"]
 
