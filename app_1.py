@@ -35,8 +35,7 @@ st.markdown("""
 #############################################
 
 ################### LOGO ###########################
-image = Image.open('logo.png')
-st.image(image)
+st.image(Image.open('logo.PNG'))
 
 ##############################################
 
@@ -53,7 +52,7 @@ tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs(model_stages_)
 with tab1:
     model_phases_dict["Welcome tab"]()
     st.success("## Welcome to my little world")
-    st.image(Image.open('logo1.png'))
+    st.image(Image.open('logo1.PNG'))
     # add_logo_gif("Thashu_V1.gif")
 with tab2:
     model_phases_dict["Details"]()
