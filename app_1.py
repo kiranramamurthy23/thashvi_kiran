@@ -56,13 +56,15 @@ with tab1:
     # add_logo_gif("Thashu_V1.gif")
 with tab2:
 #     model_phases_dict["Details"]()
-    c1,c2,c3 = st.columns(3,gap="small")
+    c1,c2,c3,c4 = st.columns(4,gap="small")
     with c1:
         add_logo_gif("cookie.gif")
     with c2:
         add_logo_gif("BDAY.gif")  
     with c3:
         add_logo_gif("place.gif")
+    with c4:
+        add_logo_gif("kannada.gif")
 with tab3:
     model_phases_dict["Photo"]()
 
