@@ -20,10 +20,10 @@ st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 st.markdown("""
         <style>
                .block-container {
-                    padding-top: 1rem;
+                    padding-top: 0rem;
                     padding-bottom: 0rem;
-                    padding-left: 1rem;
-                    padding-right: 1rem;
+                    padding-left: 5rem;
+                    padding-right: 2rem;
                 }
         </style>
         """, unsafe_allow_html=True)
